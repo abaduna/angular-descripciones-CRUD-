@@ -1,0 +1,22 @@
+<div class="card">
+    <div class="card-body  text-center">
+        <h3>Crear cita</h3>
+        <div class="form-grup mt-3">
+            <label for="nombre">Nombre</label>
+            <input type="text"  id="nombre"  [(ngModel)]="nombre" class="form-control m-3" placeholder="ingrese su nombre">
+
+            <label for="fecha">Fecha</label>
+            <input type="date"  id="fecha" [(ngModel)]="fecha" class="form-control mt-3 " placeholder="ingrese la fecha">
+
+            <label for="time">Ingrese la hora</label>
+            <input type="time"  id="time" class="form-control mt-3 "  [(ngModel)]="hora" placeholder="ingrese la hora">
+
+            <label for="descripcion">descripcion</label>
+            <textarea   id="descripcion" class="form-control mt-3 " [(ngModel)]="descripcion"  ows="3" placeholder="ingrese la descripcion"></textarea>
+            <div class=" d-grid gap-2">
+                <span class="badge text-bg-danger" *ngIf="formulario__incorecto">formulario incorecto</span>
+                <button  (click)="agregarCita()" class="btn btn-info">Agregar</button>
+            </div>
+        </div> 
+    </div>
+</div>
