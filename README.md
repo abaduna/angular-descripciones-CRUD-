@@ -1,4 +1,5 @@
 # Citas
+![Captura desde 2022-10-25 09-23-16](https://user-images.githubusercontent.com/64230830/197780639-214cdca5-9c69-4e01-bf1d-3a1159830e8d.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
